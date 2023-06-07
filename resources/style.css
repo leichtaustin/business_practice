@@ -2,6 +2,11 @@ html {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
 
+.main_content {
+    position: relative;
+    top: 6rem;
+}
+
 /* Header Section */
 
 header {
@@ -14,6 +19,7 @@ header {
 
 .container {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
@@ -21,12 +27,11 @@ header {
 
 .content img {
     width: 25%;
-    justify-self: left;
 }
 
 .content {
     display: flex;
-    border: solid 1px #c6c1c1;
+    /* border: solid 1px #c6c1c1; */
     justify-content: center;
 }
 
@@ -39,4 +44,20 @@ nav span {
 }
 
 
+
+
 /* About Section */
+
+.about_container {
+    display: flex;
+}
+#about_section {
+    position: relative;
+    top: 171px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #c6c1c1;
+    width: 50%;
+}
+
