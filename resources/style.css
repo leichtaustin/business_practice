@@ -1,3 +1,42 @@
 html {
     font-family: Georgia, 'Times New Roman', Times, serif
 }
+
+/* Header Section */
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 1px #c6c1c1;
+    background-color: bisque;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+
+.content img {
+    width: 25%;
+    justify-self: left;
+}
+
+.content {
+    display: flex;
+    border: solid 1px #c6c1c1;
+    justify-content: center;
+}
+
+header nav {
+    display: flex;
+}
+
+nav span {
+    padding: 0px 12px;
+}
+
+
+/* About Section */
