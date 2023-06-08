@@ -111,3 +111,22 @@ nav span {
     background-color: lightgrey;
     cursor: pointer;
 }
+
+
+/* Staff Section */
+
+.staff_section_main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.staff_container {
+    display: flex;
+    justify-content: center;
+    border: solid 2px black;
+    border-radius: 15px;
+    width: 20rem;
+    padding: 2rem;
+    margin: 1rem;
+}
